@@ -1,0 +1,41 @@
+name: estudos_parte_um
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #firebase  
+  firebase_core: ^1.0.2
+  firebase_auth: ^1.0.1
+  firebase_database: ^6.1.2
+  google_sign_in: ^4.4.4
+
+
+  http: ^0.13.1
+  provider: ^5.0.0
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/
+ 
+  fonts:
+    - family: Calibri
+      fonts:
+        - asset: fonts/Calibri.ttf
